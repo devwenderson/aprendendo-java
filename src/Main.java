@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         String[] nomes = new String[3];
-
+        nomes[0] = "Wenderson";
+        System.out.println(nomes[0]);
     }
 }
