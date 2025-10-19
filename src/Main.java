@@ -1,11 +1,12 @@
 import com.estudando.java.projetos.calculadora.Calculadora;
 import com.estudando.java.exemplos.classeAbstrata.Humano;
 import com.estudando.java.exemplos.classeAbstrata.SerVivo;
+import com.estudando.java.projetos.comercio_eletronico.Cliente;
 
 
 public class Main {
     public static void main(String[] args) {
-        instanceCalculadora();
+        instanceCliente();
     }
 
     // STATIC SERVE PARA DIZER QUE UM MÉTODO
@@ -18,6 +19,11 @@ public class Main {
         SerVivo pedro = new Humano(idade, nome, raca, altura);
         String humano_raca = pedro.getRaca();
         System.out.println(humano_raca);
+    }
+
+    public static void instanceCliente() {
+        Cliente pedro = new Cliente(1, "Pedro", "(84) 91234-5678", "Pedro@email");
+        System.out.println(pedro);
     }
 
     public static void instanceCalculadora(){

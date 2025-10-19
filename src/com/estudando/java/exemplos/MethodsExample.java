@@ -15,7 +15,7 @@ public class MethodsExample {
     }
 }
 
-// A CLASSE FICA SEM MODIFICADOR DE ACESSO MESMO
+// A CLASSE FICA SEM MODIFICADOR DE ACESSO, MESMO!
 class Example {
     public void mensagem(){
         MethodsExample example = new MethodsExample();
