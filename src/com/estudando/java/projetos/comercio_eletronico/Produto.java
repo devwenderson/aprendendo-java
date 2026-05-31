@@ -22,8 +22,8 @@ public class Produto {
         String preco = formatadorBr.format(this.preco);
         return "Produto {" + "\n" +
                 " ID: " + this.id + "\n" +
-                " Descrição: " + this.descricao + "\n" +
-                " Preço: " + preco + "\n" +
+                " Descricao: " + this.descricao + "\n" +
+                " Preco: " + preco + "\n" +
                 " Estoque: " + this.estoque + "\n" +
                 " Categoria: " + this.categoria.getNome() + "\n" +
                 "}";

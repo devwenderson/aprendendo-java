@@ -13,12 +13,13 @@ public class Cliente {
         this.email = email;
     }
 
-    @Override
     public String toString() {
-        return "ID: " + this.id + "\n" +
-                "Nome: " + this.nome + "\n" +
-                "Telefone: " + this.telefone + "\n" +
-                "Email: " + this.email + "\n";
+        return "Cliente { " + "\n" + 
+                " ID: " + this.id + "\n" +
+                " Nome: " + this.nome + "\n" +
+                " Telefone: " + this.telefone + "\n" +
+                " Email: " + this.email + "\n" + 
+                "}\n";
     }
 
     // ---------- SETTERS ----------

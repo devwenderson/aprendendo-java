@@ -7,6 +7,12 @@ public class Sandero implements Carro {
         this.ano = ano;
     }
 
+    public String toString() {
+        return "Sandero: {" + "\n" +
+                " Ano: " + this.ano + "\n" +
+                "}";
+    }
+
     @Override
     public void acelerar() {
         System.out.println("Acelerando");
@@ -20,12 +26,5 @@ public class Sandero implements Carro {
     @Override
     public void freiar() {
         System.out.println("Freiou");
-    }
-}
-
-class InstaciaSandero {
-    public void instanciar(){
-        // O TIPO DA VARIÁVEL PODE SER O NOME DA INTERFACE
-        Carro meuCarro = new Sandero(2015);
     }
 }
