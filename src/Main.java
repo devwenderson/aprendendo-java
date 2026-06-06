@@ -1,8 +1,12 @@
+// PROJETOS
 import com.estudando.java.projetos.calculadora.CalculadoraMain;
 import com.estudando.java.projetos.comercio_eletronico.ComercioEletronicoMain;
-import com.estudando.java.projetos.usandoEnums.UsandoEnumsMain;
+import com.estudando.java.projetos.jogoDaVelha.JogoDaVelhaMain;
+
+// EXEMPLOS
 import com.estudando.java.exemplos.classeAbstrata.ClasseAbstrataMain;
 import com.estudando.java.exemplos.interfaces.InterfacesMain;
+import com.estudando.java.exemplos.usandoEnums.UsandoEnumsMain;
 
 /* 
 CRIEI ARQUIVOS *MAIN* EM CADA PACKAGE PARA FACILITAR A CRIAÇÃO DE TESTES.
@@ -14,9 +18,10 @@ public class Main {
     ================= TESTES =================
     *STATIC* SERVE PARA DIZER QUE UM MÉTODO OU 
     VARIÁVEL NÃO PRECISA DE OBJETO PARA SER EXECUTADO
+    ==========================================
     */
 
     public static void main(String[] args) {
-        InterfacesMain.instanciarSandero();
+        JogoDaVelhaMain.iniciarJogo();
     }
 }

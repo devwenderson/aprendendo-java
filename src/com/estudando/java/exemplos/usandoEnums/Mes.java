@@ -1,4 +1,6 @@
-package com.estudando.java.projetos.usandoEnums;
+package com.estudando.java.exemplos.usandoEnums;
+
+// AS CONSTANTES DA CLASSE ENUM SÃO OBJETOS
 
 public enum Mes {
     JANEIRO(1),

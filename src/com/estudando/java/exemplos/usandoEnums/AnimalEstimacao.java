@@ -1,4 +1,4 @@
-package com.estudando.java.projetos.usandoEnums;
+package com.estudando.java.exemplos.usandoEnums;
 
 public interface AnimalEstimacao {
     String falar();
